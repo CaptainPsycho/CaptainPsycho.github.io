@@ -11,7 +11,7 @@ Update Turnkey Linux LXC Debian Conatainer running on Proxmox VE from Buster to 
 
 - Update repo signed keys
     - [Turnkey Forum](https://www.turnkeylinux.org/comment/51687#comment-51687)
-```
+```bash
 codename=bullseye
 key_dir=usr/share/keyrings
 url=https://raw.githubusercontent.com/turnkeylinux/common/master/overlays/bootstrap_apt
