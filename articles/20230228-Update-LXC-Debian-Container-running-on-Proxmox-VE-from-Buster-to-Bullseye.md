@@ -1,6 +1,11 @@
 # Update Turnkey Linux LXC Debian Conatainer running on Proxmox VE from Buster to Bullseye
 
+The recommended way of upgrading is to save your changes with tklbam, use a fresh and updated Turnkey image and reimport all your changes.
+When you do not want to go this way and just update the Debian version you can follow this howto.
 
+This will not update the Turnkey version.
+
+## HowTo
 - [Proxmox HowTo](https://pve.proxmox.com/wiki/Upgrade_from_6.x_to_7.0)
 - Update current system
     - `apt update`
@@ -29,7 +34,7 @@ done
 - Update to new version
     - `apt update`
     - `apt dist-upgrade`
-        - keep current confurations
+        - keep current configurations
     - `apt autoremove` to clean up old packages
 
 - reboot and check services
