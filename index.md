@@ -4,6 +4,7 @@ title      : Triebstahl - Blog
 subtitle   : IT, Linux, Bikes, DIY
 nav-group  : featured, new-3, tags, months
 nav-width  : 320px
+theme      : dark
 css-header : background:linear-gradient(to bottom right, #06c, #fc0); color:white
 menu       : 
    Home    : ?
