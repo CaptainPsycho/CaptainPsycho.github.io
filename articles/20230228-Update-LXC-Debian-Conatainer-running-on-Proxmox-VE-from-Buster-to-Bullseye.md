@@ -1,5 +1,5 @@
-Update Turnkey Linux LXC Debian Conatainer running on Proxmox VE from Buster to Bullseye
-=======
+# Update Turnkey Linux LXC Debian Conatainer running on Proxmox VE from Buster to Bullseye
+
 
 - [Proxmox HowTo](https://pve.proxmox.com/wiki/Upgrade_from_6.x_to_7.0)
 - Update current system
@@ -11,6 +11,7 @@ Update Turnkey Linux LXC Debian Conatainer running on Proxmox VE from Buster to 
 
 - Update repo signed keys
     - [Turnkey Forum](https://www.turnkeylinux.org/comment/51687#comment-51687)
+
 ```
 codename=bullseye
 key_dir=usr/share/keyrings
@@ -33,8 +34,6 @@ done
 
 - reboot and check services
 
-Troubleshooting
-================
-Service in container is failing to start with "NAMESPACE" Error
----------------------------------------------------------------
+## Troubleshooting
+### Service in container is failing to start with "NAMESPACE" Error
 For this container the feature `nesting` has to be enabled on the host.  
