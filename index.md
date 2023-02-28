@@ -1,15 +1,14 @@
 -----------------------------------------------------------------------------
-github     : https://github.com/CaptainPsycho/blog.triebstahl.de
+github     : https://github.com/CaptainPsycho/captainpsycho.github.io
 title      : Triebstahl - Blog
 subtitle   : IT, Linux, Bikes, DIY
 nav-group  : featured, new-3, tags, months
 nav-width  : 320px
 theme      : dark
-css-header : background:linear-gradient(to bottom right, #06c, #fc0); color:white
+css-header : 
 menu       : 
    Home    : ?
-   github  : https://github.com/CaptainPsycho/blog.triebstahl.de
-   Dark    : javascript:darkmode()
+   github  : https://github.com/CaptainPsycho/captainpsycho.github.io
    About   : ?page=about.md
 -----------------------------------------------------------------------------
 <style comment="additional style">
@@ -28,7 +27,7 @@ h1 { border-bottom:1px dotted grey }
 <div id="md-post">
 # Featured
 
-## [Update Turnkey Linux LXC Debian Conatainer running on Proxmox VE from Buster to Bullseye](articles/20230228-Update-LXC-Debian-Conatainer-running-on-Proxmox-VE-from-Buster-to-Bullseye.md)
+## [Update Turnkey Linux LXC Debian Conatainer running on Proxmox VE from Buster to Bullseye](articles/20230228-Update-LXC-Debian-Container-running-on-Proxmox-VE-from-Buster-to-Bullseye.md)
 > ![markdown resume](http://casualwriter.github.io/casual-markdown/casual-markdown-cv.png)
 > date:2023/02/28, tags: `#Proxmox, #Debian, #LXC, #Turnkey`
 > 
@@ -39,6 +38,6 @@ h1 { border-bottom:1px dotted grey }
 
 ### Feb 2023
 
-* 2023/02/28: [Update Turnkey Linux LXC Debian Conatainer running on Proxmox VE from Buster to Bullseye](articles/20230228-Update-LXC-Debian-Conatainer-running-on-Proxmox-VE-from-Buster-to-Bullseye.md) { #Proxmox, #Debian, #LXC, #Turnkey }
+* 2023/02/28: [Update Turnkey Linux LXC Debian Conatainer running on Proxmox VE from Buster to Bullseye](articles/20230228-Update-LXC-Debian-Container-running-on-Proxmox-VE-from-Buster-to-Bullseye.md) { #Proxmox, #Debian, #LXC, #Turnkey }
    
 </div>
