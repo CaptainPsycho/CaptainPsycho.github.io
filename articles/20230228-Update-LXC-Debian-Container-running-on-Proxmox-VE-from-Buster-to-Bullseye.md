@@ -46,6 +46,8 @@ done
 
 ## Troubleshooting
 ### Service in container is failing to start with "NAMESPACE" Error
-For this container the feature `nesting` has to be enabled on the host.
+For this container the feature `nesting` has to be enabled on the conatiner on the Proxmox host.
+
+![Proxmox container nesting](20220228_nesting.png)
 
 # [Startpage](/)
