@@ -1,6 +1,6 @@
 |   |   |
 |---|---|
-|Date| 2023/03/01|
+|Date| 2023/03/02|
 |Tags| #Nextcloud, #TurnkeyLinux, #MySQL|
 
 # Activate Emojis in Nextcloud Talk with [Turnkeylinux V16.1](https://www.turnkeylinux.org/nextcloud)
