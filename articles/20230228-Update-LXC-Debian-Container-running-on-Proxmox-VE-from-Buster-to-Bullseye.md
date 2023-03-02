@@ -1,7 +1,7 @@
 |   |   |
 |---|---|
 |Date| 2023/02/28|
-|Tags| #Proxmox, #Debian, #LXC, #Turnkey|
+|Tags| #Proxmox, #Debian, #LXC, #TurnkeyLinux|
 
 # Update [Turnkey Linux LXC](https://www.turnkeylinux.org/) Debian Conatainer running on Proxmox VE from Buster to Bullseye
 
@@ -52,5 +52,25 @@ done
 For this container the feature `nesting` has to be enabled on the conatiner on the Proxmox host.
 
 ![Proxmox container nesting](20230228_nesting.png)
+
+### Redis not starting because it cannot find it's run folder
+
+This was giving me headaches when updating [Turnkey Nextcloud V16.1](https://www.turnkeylinux.org/nextcloud) from Debian 10 to Debian 11.
+After the Update Redis was not starting as daemon anymore because it was not able to create it's pid and sock file in `/var/run/redis/`.
+
+Starting redis as non deaemon was working fine.
+
+`/var/run/redis/` was not present after starting the machine after the update.
+Despite it should be created when looking at `/etc/init.d/redis-server` it was not there.
+
+Manually creating the folder worked. But it was deleted on restart of the service or reboots.
+
+Solution was to create a file `/usr/lib/tmpfiles.d/redis-server.conf` with content:
+
+```bash
+d /run/redis 0755 redis redis
+```
+
+Now on each reboot the folder `/var/run/redis/` is created and permissions are set properly.
 
 # [Startpage](/)
