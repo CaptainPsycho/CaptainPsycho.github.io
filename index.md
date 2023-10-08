@@ -3,7 +3,7 @@
 
 ### October 2023
 
-* 2023/10/08: [HowTo deactivate beeping on Miele washing machine at end of run](articles/20230312-HowTo-deactivate-beeping-on-Miele-Wasching-Machine.md)
+* 2023/10/08: [HowTo deactivate beeping on Miele washing machine at end of run](articles/20231008-HowTo-deactivate-beeping-on-Miele-Wasching-Machine.md)
 
 ### March 2023
 
