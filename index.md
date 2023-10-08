@@ -1,6 +1,10 @@
 
 # Articles
 
+### October 2023
+
+* 2023/10/08: [HowTo deactivate beeping on Miele washing machine at end of run](articles/20230312-HowTo-deactivate-beeping-on-Miele-Wasching-Machine.md)
+
 ### March 2023
 
 * 2023/03/12: [HowTo prevent duplicate Cron-jobs running with flock?](articles/20230312-HowTo-prevent-duplicate-cron-jobs-running-with-flock.md) #Cron
